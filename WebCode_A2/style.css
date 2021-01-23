@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 60%;
+    border: 2px solid blue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header {
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+
+}
+
+li {}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.size {
+    width: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+
+}
+
+.hero:hover,
+.card:hover {
+    box-shadow: 0px 0px 20px #888888;
+}
+
+.size2 {
+    width: 100%;
+    margin-bottom: 1%;
+
+}
+
+.text {
+    width: 100%;
+}
+
+.text h1,
+.text h3,
+.text p {
+    margin-bottom: 1%;
+}
+
+.text hr {
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    width: 80%;
+}
+
+.sub {
+    color: darkgray;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+
+}
+
+
+.cards {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card {
+    width: 100%;
+    padding: 3%;
+    vertical-align: baseline;
+}
+
+.scard {
+    height: 300px;
+}
+
+.aut {
+    display: flex;
+    align-items: center;
+}
+
+.size4 {
+    width: 10%;
+    margin: 1%;
+
+}
+
+.size4 img {
+    border-radius: 50%;
+}
+
+.text2 .Aname,
+.text2 p {
+    font-size: 12px;
+}
+
+section {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.newsContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+article {
+    width: 100%;
+    padding: 3%;
+}
+
+aside {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.title h6 {
+    color: dodgerblue;
+}
+
+.size5 {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.side1 {
+    padding: 3%;
+}
+
+.side1 a {
+    text-decoration: underline;
+    color: blue;
+    padding: 0;
+}
+
+.side1 .sub,
+.side1 h3,
+.newsContent .sub,
+.newsContent h3 {
+    margin-bottom: 1%;
+}
+
+.recruit {
+    background-color: gainsboro;
+    padding: 4%;
+    display: flex;
+}
+
+.size6 {
+    width: 10%;
+    margin-left: 15%;
+}
