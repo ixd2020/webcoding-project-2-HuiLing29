@@ -91,8 +91,18 @@ img {
     width: 100%;
 }
 
-.text h1,
-.text h3,
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text .heading,
+.text .subheading,
 .text p {
     margin-bottom: 1%;
 }
@@ -211,6 +221,7 @@ aside {
     background-color: gainsboro;
     padding: 4%;
     display: flex;
+    align-items: flex-start;
 }
 
 .size6 {
@@ -265,7 +276,7 @@ aside {
 
 /*****End of Hompage******/
 
-nav h4 {
+nav p {
     width: 20%;
 }
 
@@ -277,7 +288,7 @@ nav h4 {
     padding-right: 15%;
 }
 
-.nav2 h4 a {
+.nav2 p a {
     text-decoration: none;
     color: black;
 }
@@ -566,4 +577,186 @@ footer {
 
 .errorDES {
     margin-bottom: 10%;
+}
+
+/***********Media Query****************/
+@media screen and (max-width: 992px) {
+
+    .nav2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav2 p {
+        width: 50%;
+        margin-bottom: 4%;
+    }
+
+    .nav2 p a {
+        font-size: 16px;
+    }
+
+    .short,
+    .errorC,
+    footer {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    /**Media query for about page****/
+
+    .aboutGD {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+
+    .aboutGD .support {
+        font-size: 25px;
+        margin-bottom: 5%;
+        padding-right: 10%;
+    }
+
+    .aboutGD p {
+        width: 100%;
+        margin-bottom: 3%;
+        font-size: 14px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /***MQ for footer***/
+    .short {
+        flex-direction: column;
+        margin: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .googledesign {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 15%;
+    }
+
+    .otherlink {
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 5%;
+    }
+
+    .discover,
+    .connect {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        list-style-type: none;
+    }
+
+    .size10 {
+        width: 6%;
+    }
+
+    #resT {
+        margin: 0;
+        margin-bottom: 7%;
+        width: 100%;
+        font-size: 27px;
+        font-weight: 100;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .Material,
+    .Fonts {
+        width: 100%;
+        margin: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /****MQ for resource*****/
+    .gp {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .cardtop p {
+        font-size: 17px;
+        line-height: 1;
+    }
+
+    .size11 {
+        width: 20%;
+        margin-left: 2%;
+    }
+
+    .des {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 15%;
+    }
+
+    .assortcards {
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /***MQ for home****/
+
+    .heading {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .subheading {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .recruit {
+        align-items: center;
+    }
+
+    .size6 {
+        width: 50%;
+        margin-left: 15%;
+    }
+
+    .Ptypecard {
+        width: 1090px;
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+
+    .typecard {
+        width: 100%;
+        padding-right: 2%;
+        padding-left: 1%;
+        padding-top: 1%
+    }
+
+    .size7 {
+        width: 100%;
+    }
+
+    .scard {
+        height: 350px;
+
+    }
+
+    .sscard {
+        height: 210px;
+
+    }
 }
